@@ -1,4 +1,4 @@
-//Importando o app (firebase)
+/*** Importando o app (firebase) ***/
 import { subscribeToHellfireClub } from './firebase/hellfire-club.js';
 
 /*** Acessando os elementos do form ***/
@@ -16,11 +16,12 @@ btnSubscribe.addEventListener('click', async () => {
         level: txtLevel.value,
         character: txtCharacter.value
     };
-    //salvar no banco de dados
+    /** Salvar no banco de dados ***/
     const subscriptionId = await subscribeToHellfireClub(subscription);
     alert(`Inscrito com sucesso! 
            Código Secreto: ${subscriptionId}`);
     
+    /*** Limpando o form ***/
     txtName.value = '';
     txtEmail.value = '';
     txtLevel.value = '';

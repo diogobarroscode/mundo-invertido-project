@@ -1,5 +1,5 @@
-  // Importação do app criado no firebase
-  
+  /*** Importação do app criado no firebase ***/
+
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
   // TODO: Add SDKs for Firebase products that you want to use
@@ -18,5 +18,5 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   
-  //Exportando o app
+  /*** Exportando o app ***/
   export default app
