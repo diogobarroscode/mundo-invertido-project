@@ -1,10 +1,10 @@
 # mundo-invertido-project
 Projeto realizado na semana frontend da plataforma DIO (Digital Innovation One).
 
-
+#
 ![preview](./.github/preview.gif)
 #
-🌐 Click no link para acessar:  [diogobarroscode.github.io/Explorer-Project-NLW](https://diogobarroscode.github.io/Explorer-Project-NLW/)
+🌐 Click no link para acessar:  [diogobarroscode.github.io/mundo-invertido-project/](https://diogobarroscode.github.io/mundo-invertido-project/)
 
 #
 ## 💻 Tecnologias
